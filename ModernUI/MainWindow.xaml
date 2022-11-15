@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModel="clr-namespace:ModernUI.MVVM.ViewModel"
         xmlns:local="clr-namespace:ModernUI"
         mc:Ignorable="d"
         Height="600" Width="920"
@@ -11,6 +12,9 @@
         Background="Transparent"
         AllowsTransparency="True"
         >
+    <Window.DataContext>
+        <viewModel:MainViewModel />
+    </Window.DataContext>
     <Border
         Background="#272537"
             CornerRadius="20">
@@ -38,6 +42,8 @@
                     Foreground="White"
                     FontSize="14"
                     Style="{StaticResource MenuButtonTheme}" 
+                    IsChecked="True"
+                    CommandBindings="{Binding HomeViewCommand}"
                     />
 
                 <RadioButton 
@@ -46,6 +52,7 @@
                     Foreground="White"
                     FontSize="14"
                     Style="{StaticResource MenuButtonTheme}" 
+                    CommandBindings="{Binding DiscoveryViewCommand}"
                     />
 
                 <RadioButton 
@@ -67,7 +74,8 @@
 
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
-                            Margin="10"/>
+                            Margin="10"
+                            Content="{Binding CurrentView}"/>
 
 
         </Grid>

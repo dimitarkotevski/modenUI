@@ -32,3 +32,5 @@ C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\MVVM\View\HomeView.
 C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\MVVM\View\HomeView.baml
 C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\ModernUI.csproj.CopyComplete
 C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\ModernUI_Content.g.cs
+C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\MVVM\View\DiscoveryView.g.cs
