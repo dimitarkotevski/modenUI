@@ -9,6 +9,8 @@
              Background="#1b1b1b">
             
     <Grid>
-        
+        <TextBlock>
+            Dimtiar
+        </TextBlock>
     </Grid>
 </UserControl>
