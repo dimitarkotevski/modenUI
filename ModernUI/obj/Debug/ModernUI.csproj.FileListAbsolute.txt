@@ -34,3 +34,4 @@ C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\ModernUI.csproj.Cop
 C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\ModernUI_Content.g.cs
 C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\MVVM\View\DiscoveryView.g.cs
+C:\Users\inteligenta\Desktop\wpf\ModernUI\ModernUI\obj\Debug\MVVM\View\DiscoveryView.baml
